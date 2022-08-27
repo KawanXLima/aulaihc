@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, css, layout, comentários">
+
+    <title>Resvisão Front</title>
+</head>
+<body>
+    <header>
+        <!--dependendo da imagem ela deve ser mais descritiva ou menos descritiva-->
+        <!--talvez até escrever cores da imagem-->
+        <img src="imagem/FATEC_ZONA_LESTE.png" alt="Logo fatec zona 
+        leste nas cores cinza e vermelho">
+        <!--aria instrução para acessibilidade-->
+        <nav role="menubar"><!--usar o nav para evitar modificar a atualização-->
+            <ul role="menu">
+                <li role="menuitem" aria-haspopup="false"><a href="index.html">Página Inicial</a></li>
+                <li><a href="comentarios.html">Comentarios</a></li>
+                <li><a href="metadados.html">Metadados</a></li>
+                <li role="menuitem" aria-haspopup="true"><a href="javascript:void(0);">Listas</a><!--Melhor que utilizar # para identificar que o link não está funcionando-->
+                    <ul><!--SubMenu para criar uma lista dentro de uma palavra-->
+                        <li><a href="ul.html">Lista não ordenada</a></li>
+                    </ul>
+                </li>
+                <li><a href="layout.html">Estilo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>REVISÃO FRONT END</h1>
+        <!---->
+        <h2>Conteúdos apresentados</h2>
+        <ol>
+            <li>Comentários</li>
+            <li>Metadados</li>
+            <li>Listas</li>
+            <li>Estilo</li>
+        </ol>
+    </main>
+    <footer>
+        <p>Desenvolvido por Junior <br>
+        Todos os direitos reservados &copy; 2022
+        </p>
+    </footer>
+</body>
+</html>
